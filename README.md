@@ -31,7 +31,7 @@ If you don't like putty or you want some more comfort SSHing you might want to t
 
 After you SSHed into the brick let's update it :
 	
-	Dsudo apt-get update
+	sudo apt-get update
 	sudo apt-get install linux-image-ev3dev-ev3
 
 This is the fast version updating JUST the kernel to the most current version. For a full update/upgrate do the following :
@@ -49,6 +49,6 @@ Please execute the following :
 
 You will be asked for your password (usually it's 'maker'). Getting and installing PIP will take some time. On my Brick it took about 6min after you see the first reaction after hitting the "enter" button.
 It should basically look like the following if successful :
-!(ressource/Images/install pip.png)
+!(ressource/Images/install pip.PNG)
 
 
