@@ -49,6 +49,6 @@ Please execute the following :
 
 You will be asked for your password (usually it's 'maker'). Getting and installing PIP will take some time. On my Brick it took about 6min after you see the first reaction after hitting the "enter" button.
 It should basically look like the following if successful :
-!(ressource/Images/install pip.PNG)
+(ressource/Images/installpip.PNG)
 
 
