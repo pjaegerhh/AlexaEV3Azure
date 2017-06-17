@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\azure-api",
     "\\EV3",
-    "\\EV3\\pip",
-    "\\ressource",
     "\\ressource\\Images"
   ],
-  "SelectedNode": "\\ressource",
+  "SelectedNode": "\\deploy.sh",
   "PreviewInSolutionExplorer": false
 }
