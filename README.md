@@ -63,3 +63,18 @@ When this is done we have one final step which is installing the socket.io Clien
 	sudo pip install socketIO-client-2
 
 You'll be asked for your password and it will take another 5-10min to get the socket.io client installed.
+The next thing we install is BASH on Windows10. If you're ona Mac you're all set - bash is basically standard. On PC's we have to install it from the Win10 Store.
+First you need to make the machine a Dev Machine (in settings). The you need to add BASH in Control Center - Programs - addtl functions. After a restart hit "Win+S" and type "bash". This will start your bash and first will download it from the store. After downloading and adding the standard user it should look like this :
+
+![Architecture](ressource/Images/ubuntu-done.PNG)
+
+If you need help look here : https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/
+Next we have to prepare your bash environment.
+
+	sudo apt install npm
+	sudo apt-get install mc (this is the famous "midnight commander" like good old "Norton Commander")
+
+Although node.js should allready be installed please check before continuing :
+
+	sudo apt-get install nodejs
+
