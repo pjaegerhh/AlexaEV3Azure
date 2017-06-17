@@ -1,7 +1,7 @@
 'use strict';
 
 const restify = require('restify'),
-    controllers = require('./controllers');
+    controllers = require('./controller');
 
 class HttpServer {
     init() {
