@@ -49,6 +49,17 @@ Please execute the following :
 
 You will be asked for your password (usually it's 'maker'). Getting and installing PIP will take some time. On my Brick it took about 6min after you see the first reaction after hitting the "enter" button.
 It should basically look like the following if successful :
+
 ![Architecture](ressource/Images/installpip.PNG)
 
+You can install PIP for Python3 also using apt-get :
+	
+	sudo apt-get install python3-pip
 
+it will take almost 30min and requires approx addtl 150MB on your disk.
+
+When this is done we have one final step which is installing the socket.io Client. Please enter the following :
+
+	sudo pip install socketIO-client-2
+
+You'll be asked for your password and it will take another 5-10min to get the socket.io client installed.
