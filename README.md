@@ -2,10 +2,13 @@
 This repository contains the code for the API Bridge on Azure, Alexa Skill and EV3 program.
 With this you are able to control an EV3 Bot using Alexa Skill Kit and Azure Webapps
 Code is in node.js (web app), Python (EV3)
+A big "THANK YOU !" goes to Manuel Rauber @manuelrauber and Christian Weyer @christianweyer. A lot of the code and the initial idea is from them. They used this idea for a talk @ API Summit in June 2017
 
 ## Architecture
 
 ## API Bridge
+
+## Chat Bot on Azure
 
 ## Alexa Skill
 
@@ -60,7 +63,7 @@ it will take almost 30min and requires approx addtl 150MB on your disk.
 
 When this is done we have one final step which is installing the socket.io Client. Please enter the following :
 
-	sudo pip install socketIO-client-2
+	sudo pip3 install socketIO-client
 
 You'll be asked for your password and it will take another 5-10min to get the socket.io client installed.
 The next thing we install is BASH on Windows10. If you're ona Mac you're all set - bash is basically standard. On PC's we have to install it from the Win10 Store.

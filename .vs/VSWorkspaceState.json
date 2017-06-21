@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\azure-api",
-    "\\EV3",
-    "\\ressource\\Images"
+    "\\azure-api\\controller",
+    "\\azure-api\\controller\\EV3",
+    "\\EV3"
   ],
-  "SelectedNode": "\\deploy.sh",
+  "SelectedNode": "\\EV3\\index.py",
   "PreviewInSolutionExplorer": false
 }

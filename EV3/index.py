@@ -56,6 +56,29 @@ def onDoItDudeCommand(command):
 def onConnect():
     print('Connected to Azure !', socket.transport_name)
 
+def onTurnCommand(command):
+    print('Turn Command ' + command)
+
+    if (command == 'left'):
+        turnLeft()
+    elif(command == 'right'):
+        turnRight()
+    else:
+        turnBack()
+
+def turnLeft():
+    print('Turning Left...')
+
+    moveMotor1.run_timed(time_sp=550, speed_sp=500)
+
+def turnRight():
+    print('Turning Right...')
+    moveMotor2.run_timed(time_sp=550, speed_sp=500)
+
+def turnBack():
+    print('Turning Back...')
+    moveMotor2.run_timed(time_sp=1100, speed_sp=500)
+
 
 def onMoveCommand(command):
     print('MOVE Command ' + command)
@@ -94,8 +117,7 @@ def stopMoving():
     moveMotor2.stop()
 
 socket.on('connect', onConnect)
-socket.on('claw', onClawCommand)
 socket.on('move', onMoveCommand)
-socket.on('doItDude', onDoItDudeCommand)
+socket.on('turn', onTurnCommand)
  
 socket.wait() 
